@@ -1,0 +1,163 @@
+html,body {
+	margin:0;
+	padding:0;
+}
+
+body { 
+	background:#ebebeb;
+	color: #6B6767;
+	font: 15px Helvetica, sans-serif;
+	line-height: 22px;
+
+
+}
+/*WK6 new code start */
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+}
+.btn-wrapper {
+ 
+ top: 50%;
+ position: fixed;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 1;
+ text-align:center;
+}
+.btn-wrapper p{
+	font-size: 2em;
+	font-weight: bold;
+	color: #008CB9;
+	line-height: 1.25em;
+}
+
+.button {
+	font-size: 16px;
+	background-color: #008CB9;
+	padding: 16px 32px;
+	color: white;
+	-webkit-transition: 0.4;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4;
+	transition: 0.4s;
+    border: 2px solid #008cb9;
+    border-radius: 4px;
+    cursor: pointer;
+        
+}
+.button:hover {
+	background-color: white;
+	border: 2px solid #008CBA;
+	color: #006a87;
+}
+.button:active {
+	color: #00ADCB;
+	border: 2px solid #00adcb;
+}
+/* end of new code */
+
+h1 {
+	font-size: 70px;
+	line-height: 70px;
+	margin-bottom: 0;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px #999;
+
+}
+
+h2 {
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-bottom: 2px dashed #bfbfbf;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+	float: left;
+}
+h4 {
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #948f8f;
+	clear: both;
+}
+.info {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #948f8f;
+}
+#objective {
+	font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 60px;
+    color: #848892;
+    text-align: justify;
+}
+#wrapper {
+    width: 784px;
+    border: 1px solid #aeb9ce;
+    background: url("bg-crosshatch.gif") repeat scroll 0% 0% #c8cfdc;
+	margin: 40px auto 20px;
+} 
+
+#wrapper, main {
+    border-radius: 5px;
+}
+main {
+	
+	width:630px;
+	border:1px solid #c8cfdc;
+	background:#fff url("header-line.jpg") no-repeat 2px 2px;
+	margin:40px auto;
+	padding: 10px 35px 35px 35px;
+	
+	
+}
+.shadow {box-shadow: 0px 0px 2px #ababab;}
+
+
+.date {
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+
+}
+
+.social-icons li {
+	display: inline;
+	padding: 0 10px 0 0;
+	margin: 0;
+
+}
+.social-icons {
+	margin: 5px 0 0 0;
+	padding: 0;
+
+}
+li a {
+	text-decoration: none;
+	color: #73939E;
+	font-size: 16px;
+	font-weight: bold;
+}
+li a:hover {
+	color: #396473;
+
+}
